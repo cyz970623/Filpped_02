@@ -9,7 +9,7 @@
 import UIKit
 
 class Part1ViewController: UIViewController {
-
+    //let audio = AudioModel()
     @IBOutlet weak var pauseMusic: UINavigationItem!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,8 @@ class Part1ViewController: UIViewController {
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(true)
         
-        print("disappear")
+        //audio.shouldPause = false
+        
     }
 
     /*

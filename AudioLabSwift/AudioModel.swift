@@ -15,7 +15,16 @@ class AudioModel {
     private var BUFFER_SIZE:Int
     var timeData:[Float]
     var fftData:[Float]
-    
+    var shouldPause = true{
+        didSet{
+            if !shouldPause{
+                self.audioManager?.outputBlock = nil
+            }
+            else{
+                self.audioManager?.outputBlock = self.handleSpeakerQueryWithAudioFile(data:numFrames:numChannels:)
+            }
+        }
+    }
     // MARK: Public Methods
     init(buffer_size:Int) {
         BUFFER_SIZE = buffer_size

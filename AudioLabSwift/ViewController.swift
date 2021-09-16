@@ -49,6 +49,13 @@ class ViewController: UIViewController {
        
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(true)
+        
+        audio.shouldPause = false
+        
+    }
+
     
     @objc
     func updateGraph(){

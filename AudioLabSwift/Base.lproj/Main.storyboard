@@ -53,7 +53,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Cgq-vq-s2j" kind="show" id="YDA-J7-YPy"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="Vwd-lo-jSa"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="LZW-jJ-fNV" style="IBUITableViewCellStyleDefault" id="DsL-4U-6YW">
@@ -159,7 +159,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1328" y="-866"/>
+            <point key="canvasLocation" x="-213" y="-731"/>
         </scene>
         <!--Part3 View Controller-->
         <scene sceneID="PrR-a0-2UD">
