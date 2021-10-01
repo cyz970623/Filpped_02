@@ -10,7 +10,7 @@ import UIKit
 import Metal
 
 
-let AUDIO_BUFFER_SIZE = 1024*4
+//let AUDIO_BUFFER_SIZE = 1024*4
 
 
 class ViewController: UIViewController {
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        audio.currrntViewPart = 1
         // add in graphs for display
         graph?.addGraph(withName: "fft",
                         shouldNormalize: true,

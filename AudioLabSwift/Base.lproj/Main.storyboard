@@ -16,14 +16,23 @@
                     <view key="view" contentMode="scaleToFill" id="jF7-mu-eeb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="17500" minValue="15000" maxValue="20000" translatesAutoresizingMaskIntoConstraints="NO" id="tEN-i8-Ake">
+                                <rect key="frame" x="-2" y="456" width="418" height="30"/>
+                            </slider>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Csb-yv-swh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tEN-i8-Ake" firstAttribute="leading" secondItem="Csb-yv-swh" secondAttribute="leading" id="NgN-eW-Dd7"/>
+                            <constraint firstItem="Csb-yv-swh" firstAttribute="trailing" secondItem="tEN-i8-Ake" secondAttribute="trailing" id="ixE-xi-XI6"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="c0U-sB-Lhc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shs-cr-xwZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="599" y="84"/>
+            <point key="canvasLocation" x="598.55072463768124" y="83.705357142857139"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="zsd-gc-lWK">
@@ -73,7 +82,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="yiB-uZ-kmM" kind="show" id="1l2-kY-4os"/>
+                                            <segue destination="yiB-uZ-kmM" kind="show" id="ScD-v9-kZe"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="AOS-cr-moA" style="IBUITableViewCellStyleDefault" id="cdH-aN-5VA">
